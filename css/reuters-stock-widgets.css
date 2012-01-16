@@ -1,0 +1,124 @@
+.headline {
+    color: #A5A39C;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 18px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.mainTxt {
+    color: #414042;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.ccbnTxt {
+    color: #414042;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    font-weight: normal;
+}
+
+.ccbnTblSubTxt {
+    color: #414042;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    font-weight: normal;
+}
+
+.ccbnOutline {
+    background-color: #EFEFEF;
+}
+
+.ccbnBgTblTtl {
+    background-color: #DBD9C6;
+}
+
+.ccbnBgTblLabelLeft {
+    background-color: #FFFFFF;
+}
+
+.ccbnTblLabelLeft {
+    color: #414042;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.ccbnPos {
+    color: #009933;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    font-weight: normal;
+}
+
+.ccbnNeg {
+    color: #CC0000;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    font-weight: normal;
+}
+
+#linkFix a:link {
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    color: #0000FF;
+    font-weight: normal;
+    padding-left: 0;
+    padding-right: 0;
+    text-decoration: underline;
+}
+
+.ccbnBgChart {
+    background-color: #FFFFFF;
+}
+
+.ccbnBgSelect {
+    background-color: #FFFFFF;
+}
+
+.ccbnBgLabel {
+    background-color: #FFFFFF;
+}
+
+.ccbnSelect {
+    color: #414042;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    font-weight: normal;
+}
+
+.ccbnInput {
+    color: #414042;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    font-weight: normal;
+}
+
+.ccbnSubTxt {
+    color: #414042;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 10px;
+    font-weight: normal;
+}
+
+.ccbnBgButton {
+    background-color: #FFFFFF;
+}
+
+.ccbnButton {
+    color: #414042;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    font-weight: normal;
+}
+
+.ccbnLabel {
+    color: #414042;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+	padding-right: 10px;
+    font-weight: bold;
+}

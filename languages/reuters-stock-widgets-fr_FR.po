@@ -1,0 +1,200 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Reuters Stock Widgets WordPress plugin\n"
+"POT-Creation-Date: 2011-03-08 23:52+0200\n"
+"PO-Revision-Date: 2011-03-25 19:53+0200\n"
+"Last-Translator: Valera Satsura <mail@satsura.com>\n"
+"Language-Team: Positive Sum\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+
+msgid "Ticker Comparison"
+msgstr "Comparer à"
+
+msgid "TSX (Canadian Dollar)"
+msgstr "TSX (Dollar canadien)"
+
+msgid "Canadian Dollar"
+msgstr "Dollar canadien"
+
+msgid "Symbol"
+msgstr "Symbole"
+
+msgid "1 month"
+msgstr "1 mois"
+
+msgid "2 months"
+msgstr "2 mois"
+
+msgid "3 months"
+msgstr "3 mois"
+
+msgid "6 months"
+msgstr "6 mois"
+
+msgid "1 year"
+msgstr "1 an"
+
+msgid "2 years"
+msgstr "2 ans"
+
+msgid "3 years"
+msgstr "3 ans"
+
+msgid "4 years"
+msgstr "4 ans"
+
+msgid "5 years"
+msgstr "5 ans"
+
+msgid "10 years"
+msgstr "10 ans"
+
+msgid "Year-to-Date"
+msgstr "Cumul de l’année"
+
+msgid "All Data"
+msgstr "Toutes les données"
+
+msgid "Separate multiple tickers with commas(,)"
+msgstr "Séparer les symboles multiples par une virgule (,)"
+
+msgid "1 hour (intraday)"
+msgstr "1 heure (intrajournalière)"
+
+msgid "1 day (intraday)"
+msgstr "1 jour (intrajournalier)"
+
+msgid "2 days (intraday)"
+msgstr "2 jours (intrajournaliers)"
+
+msgid "5 days (intraday)"
+msgstr "5 jours (intrajournaliers)"
+
+msgid "10 days (intraday)"
+msgstr "10 jours (intrajournaliers)"
+
+msgid "1 Minute (intraday)"
+msgstr "1 minute (intrajournalière)"
+
+msgid "5 Minute (intraday)"
+msgstr "5 minutes (intrajournalières)"
+
+msgid "15 Minute (intraday)"
+msgstr "15 minutes (intrajournalières)"
+
+msgid "Hourly (intraday)"
+msgstr "Horaire (intrajournalier)"
+
+msgid "Daily"
+msgstr "Quotidien"
+
+msgid "Weekly"
+msgstr "Hebdomadaire"
+
+msgid "Monthly"
+msgstr "Mensuel"
+
+msgid "Quarterly"
+msgstr "Trimestriel"
+
+msgid "Yearly"
+msgstr "Annuel"
+
+msgid "None"
+msgstr "Aucun"
+
+msgid "DJ Industrial Average"
+msgstr "Moyenne industrielle DJ"
+
+msgid "NYSE Composite"
+msgstr "Indice composé NYSE"
+
+msgid "S&P/TSX Composite"
+msgstr "Indice composé S&P/TSX"
+
+msgid "OHLC"
+msgstr "OHLC"
+
+msgid "Close"
+msgstr "Clôture"
+
+msgid "Candlestick"
+msgstr "Chandeliers"
+
+msgid "Logarithmic"
+msgstr "Logarithmique"
+
+msgid "Mountain"
+msgstr "Montagne"
+
+msgid "Show Splits"
+msgstr "Afficher les fractionnements"
+
+msgid "Show Earnings"
+msgstr "Afficher les bénéfices"
+
+msgid "Show Dividends"
+msgstr "Afficher les dividendes"
+
+msgid "Show All Events"
+msgstr "Afficher tous les événements"
+
+msgid "Time Frame"
+msgstr "Échéancier"
+
+msgid "Frequency"
+msgstr "Fréquence"
+
+msgid "Index Comparison"
+msgstr "Comparer à"
+
+msgid "Chart Type"
+msgstr "Types de diagramme"
+
+msgid "Events"
+msgstr "Événements"
+
+msgid "Exchange"
+msgstr "Échange"
+
+msgid "Price"
+msgstr "Cours / prix"
+
+msgid "Change"
+msgstr "Taux de change"
+
+msgid "Today's Open"
+msgstr "À l’ouverture d’aujourd’hui"
+
+msgid "Previous Close"
+msgstr "Clôture précédente"
+
+msgid "Intraday High"
+msgstr "Cours le plus haut intrajournalier"
+
+msgid "Intraday Low"
+msgstr "Cours le plus bas intrajournalier"
+
+msgid "52 Week High"
+msgstr "Haut - 52 semaines"
+
+msgid "52 Week Low"
+msgstr "Bas - 52 semaines"
+
+msgid "Data as of"
+msgstr "Données fournies par Interactive Data"
+
+msgid "Minimum 20 minute delay"
+msgstr "Différé de 20 minutes au minimum"
+
+msgid "Refresh quote"
+msgstr "Mise à jour de la cote"
+
+msgid "Submit"
+msgstr "Soumettre"
+
