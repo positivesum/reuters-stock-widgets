@@ -20,6 +20,7 @@ if ( !class_exists( 'The_Reuters_Stock_Widgets' ) ) {
 	class The_Reuters_Stock_Widgets {
 		public $pluginUrl = null;
 		public $compid = null;
+		public $StockSymbol = null;
 		public $Company = null;
 		public $Class = null;
 		public $Ticker  = null;
@@ -43,6 +44,7 @@ if ( !class_exists( 'The_Reuters_Stock_Widgets' ) ) {
 			$this->pluginPath		= WP_PLUGIN_DIR . '/' . $this->pluginDir;
 			$this->pluginUrl 		= WP_PLUGIN_URL.'/'.$this->pluginDir;
 			$this->compid 			= get_option('compid');
+			$this->StockSymbol 			= get_option('stock_symbol');
 			$arrData = $this->get_stock_quote($this->compid);
 			if ($arrData) {
 				extract($arrData, EXTR_SKIP);
@@ -106,7 +108,7 @@ if ( !class_exists( 'The_Reuters_Stock_Widgets' ) ) {
 			} else {
 				$deprecated=' ';
 				$autoload='no';
-				add_option($option_name, $newvalue, $deprecated, $autoload);
+				add_option($option_name, $newvalue);
 			}		
 		} 		
 		
@@ -119,6 +121,7 @@ if ( !class_exists( 'The_Reuters_Stock_Widgets' ) ) {
 			if ( isset( $_REQUEST['action'] ) && $_REQUEST['action'] == 'widget-stockquotes-options') {
 				check_admin_referer('widget-stockquotes-options');
 				$this->set_option('compid', $_REQUEST['compid']);
+				$this->set_option('stock_symbol', $_REQUEST['stock_symbol']);
 			}	
 		}		
 
@@ -146,6 +149,16 @@ if ( !class_exists( 'The_Reuters_Stock_Widgets' ) ) {
 					<input id="compid" name="compid" type="text" value="<?php echo get_option('compid'); ?>" size="6" />
 				</fieldset>
 			</td>
+			</tr>
+			<tr valign="top">
+			<th scope="row">The stock symbol to provide information for</th>
+			<td>
+				<fieldset>
+					<legend class="screen-reader-text"><span>The stock symbol to provide information for</span></legend>
+					<label for="stock_symbol"><?php _e('Stock symbol:'); ?></label>
+					<input id="stock_symbol" name="stock_symbol" type="text" value="<?php echo get_option('stock_symbol'); ?>" size="6" />
+				</fieldset>
+			</td>			
 			</tr>
 			</table>	
 				<p class="submit">
