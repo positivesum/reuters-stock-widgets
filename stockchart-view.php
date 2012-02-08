@@ -5,12 +5,12 @@
 
 	if ( isset( $_REQUEST['operation'] ) && ($_REQUEST['operation'] == 'chart')) {
 		$instance = wp_parse_args( array( 'title' => '', 'tickercompare' => '',
-								'compid' =>  $_REQUEST['compid'], 'control_time' => $_REQUEST['control_time'],
+								'compid' =>  $_REQUEST['compid'], 'stock_symbol' =>  $_REQUEST['stock_symbol'], 'control_time' => $_REQUEST['control_time'],
 								'control_freq' => $_REQUEST['control_freq'], 'control_compidx' => $_REQUEST['control_compidx'],
 								'control_type' => $_REQUEST['control_type'], 'control_uf' => $_REQUEST['control_uf']) );		
 	} else {
 		$instance = wp_parse_args( array( 'title' => '', 'tickercompare' => '',
-								'compid' =>  $reuters_stock_widgets->compid, 'control_time' => "1yr",
+								'compid' =>  $reuters_stock_widgets->compid, 'stock_symbol' =>  $_REQUEST['stock_symbol'], 'control_time' => "1yr",
 								'control_freq' => '1dy', 'control_compidx' => 'aaaaa:0',
 								'control_type' => '64', 'control_uf' => '0') );		
 	}
@@ -32,7 +32,8 @@
 										<td valign="top" align="center" colspan="2">
 											<img id="img-stock-chart" alt="Stock chart for: <?php echo $reuters_stock_widgets->Ticker ?>" src="http://chart.corporate-ir.net/custom/ccbn-com/stockchart/chart.asp?
 											<?php 
-											echo 'symb=CA:DH&amp;time='.$instance['control_time'].
+											echo 'symb='.$instance['stock_symbol']. // CA:DH
+												 '&amp;time='.$instance['control_time']. 
 												 '&amp;freq='.$instance['control_freq'].
 												 '&amp;compidx='.$instance['control_compidx'].
 												 '&amp;uf='.$instance['control_uf'].
